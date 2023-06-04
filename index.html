@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTTP Headers Checker</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Security HTTP Headers Checker</h1>
+    <h6>This Security HTTP Header Checker tool is provided for informational purposes only and should be used responsibly and in compliance with applicable laws and regulations. The tool's creator is not liable for any damages or legal consequences resulting from its usage.</h6>
+  </header>
+  <main>
+    <div id="search-container">
+      <div class="input-container">
+        <label for="url-input">Enter the URL of the website you would like to test for missing security headers!</label>
+        <div class="input-field">
+          <input type="text" id="url-input" placeholder="https://www.example.com">
+          <button id="search-btn">Check Headers</button>
+        </div>
+      </div>
+    </div>    
+    <div id="result-container">
+      <h2 id="result-heading">Results</h2>
+      <ul id="header-list"></ul>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
