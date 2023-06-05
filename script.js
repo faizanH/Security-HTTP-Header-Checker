@@ -55,7 +55,7 @@ function clearResults() {
     if (url !== '') {
       clearResults();
   
-      fetch('http://localhost:5000/check_headers', {
+      fetch('https://techzon.pythonanywhere.com/check_headers', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
