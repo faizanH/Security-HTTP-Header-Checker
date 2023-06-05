@@ -124,5 +124,5 @@ To enhance the security and privacy of your web application, it is recommended t
 
     return jsonify({'headers': results})
 
-if __name__ == '__main__':
-    app.run()
+# if __name__ == '__main__':
+#     app.run()
