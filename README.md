@@ -1,4 +1,4 @@
-# Security-HTTP-Header-Checker (Live at: https://faizan12123.github.io/Security-HTTP-Header-Checker/)
+# Security-HTTP-Header-Checker (Live at: https://faizanh.github.io/Security-HTTP-Header-Checker/)
 
 The Security HTTP Header Checker is a tool built with Python, Flask, HTML, CSS, and JavaScript that allows you to assess the security headers of a website. It helps you identify missing or misconfigured security headers, providing valuable information about their purpose and associated vulnerabilities.
 
